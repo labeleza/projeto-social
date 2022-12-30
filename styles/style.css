@@ -7,3 +7,30 @@
     padding: 0;
 }
 
+html, body {
+    width: 100vw;
+    height: 100vh;
+    background: url('../imagens/fundo-madeira.jpg') no-repeat center/cover fixed;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+section#phone  {
+    width: 311px;
+    height: 627px;
+    background: url('../imagens/frame-iphone.png') no-repeat center/cover;
+    position: relative;
+}
+
+iframe#screen {
+    width: 269px;
+    height: 471px;
+    position: relative;
+    top: 80px;
+    left: 22px;
+}
