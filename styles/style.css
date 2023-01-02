@@ -56,3 +56,36 @@ section#social-networks img {
     border-radius: 50%;
     width: 4rem;
 }
+
+@media screen and (max-width: 468px) {
+    #container {
+        display: block;
+        margin: auto;
+    }
+
+    section#phone {
+        margin: 0.5rem auto;
+        position: relative;
+    }
+
+    section#social-networks {
+        flex-flow: row wrap;
+        gap: 0.5rem;
+        position: absolute;
+        bottom: 5%;
+        left: 5%;
+        right: 5%;
+        background-color: #fffa;
+        width: auto;
+        border-radius: 0.5rem;
+        padding: 0.2rem;
+    }
+
+    section#social-networks img {
+        width: 2.6rem;
+    }
+
+    section#social-networks img:hover {
+        transform: none;
+    }
+}
