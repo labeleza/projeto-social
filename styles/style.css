@@ -62,11 +62,6 @@ section#social-networks img {
 }
 
 @media screen and (max-width: 496px) {
-    #container {
-        display: block;
-        margin: auto;
-    }
-
     section#phone {
         margin: 0.5rem auto;
         position: relative;
@@ -76,11 +71,10 @@ section#social-networks img {
         flex-flow: row wrap;
         gap: 0.5rem;
         position: absolute;
-        bottom: 0;
+        top: 5%;
         left: 5%;
         right: 5%;
-        background-color: #fffa;
-        width: auto;
+        background-color: #0005;
         border-radius: 0.5rem;
         padding: 0.2rem;
     }
